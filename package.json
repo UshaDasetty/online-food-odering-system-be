@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for the Zomato Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start:nodemon": "nodemon app.js"
+  },
+  "author": "USHA DASETTY",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "google-auth-library": "^7.6.2",
+    "https": "^1.0.0",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
